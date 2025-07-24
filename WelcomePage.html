@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+<style>
+    /*Css Reset*/
+    body {
+        font-family: 'Baloo Bhaina 2', cursive;
+        color: white;
+        margin: 0;
+        padding: 0;
+        /* background: url('bgimage.png') no-repeat center center fixed; */
+        background-size: cover;
+        height: 100vh;
+
+    }
+
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 65px;
+        top: 20px;
+
+    }
+
+    .left img {
+        text-align: center;
+        width: 100px;
+        filter: invert(100%);
+        top: 3px;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 800px;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 40px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhaina 2', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+
+    .btn:hover {
+        background-color: rgb(53, 47, 47);
+    }
+
+    .container {
+        border: 2px solid white; 
+        margin: 52px 108px;
+        padding: 80px 393px;
+        width: 33%;
+        border-radius: 29px;
+        text-align: center;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhaina 2', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 23%;
+        margin: auto;
+    }
+    
+</style>
+
+<body style="background-color: black;">
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="gym.png" alt="">
+            <!-- <div>K.F.C</div> -->
+        </div>
+        <!-- mid box for navigation bar -->
+        <div class="mid">
+            
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best GYM of Kopargoan</h1>
+            <div class="form-group"></div>
+            <a href="mainPage.html">
+                <button class="btn">Join</button>
+            </a>
+    </div>
+</body>
+
+</html>
