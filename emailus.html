@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #8af4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #027566;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(255, 2, 2, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+h2 {
+    color: #000000;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #f39d9d;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #180008;
+}
+
+button {
+    background-color: #22000b;
+    color: #f1abab;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #220013;
+}
+
+a {
+    color: #22000b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+</style>
+<body>
+    <div class="contact-container">
+        <h1>Email Us</h1>
+        <p>We value your thoughts and feedback! If you have any questions, comments, or concerns, please feel free to reach out to us via email. At <strong>Kulswamini Fitness Club</strong>, we strive to create a supportive community for all our members, and your input is invaluable in helping us improve our services. Whether you want to inquire about membership options, class schedules, or personal training sessions, we’re here to assist you in any way we can.</p>
+
+        <p>When you send us an email, you can expect a prompt response from our dedicated staff. We understand that your time is important, and we aim to address your queries as quickly as possible. Your satisfaction is our top priority, and we are committed to ensuring that you have the best experience with us. If you’re looking for specific information or have a unique request, please don’t hesitate to let us know; we are more than happy to help.</p>
+        
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:rahulgaikwad8460@gmail.com">rahulgaikwad8460@gmail.com</a></p>
+        <p>Phone: <a href="tel:+91 79724 03172">+91 79724 03172</a></p>
+        <p>Address: Kulswamini Fitness Club Near Saibaba Corner, Kopargoan, Ahilyanagar</p>
+
+        <h2>Send Us a Message</h2>
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Email</button>
+        </form>
+
+        <p>Thank you for considering <strong>Kulswamini Fitness Club</strong> as your fitness partner. We are excited to connect with you and assist you on your fitness journey. Your feedback helps us to continually evolve and provide the best services possible. We look forward to receiving your message and will get back to you as soon as we can!</p>
+    </div>
+</body>
+</html>
